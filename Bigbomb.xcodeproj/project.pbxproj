@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		17088C071E470A8A00398774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17088C061E470A8A00398774 /* AppDelegate.swift */; };
-		17088C091E470A8A00398774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17088C081E470A8A00398774 /* ViewController.swift */; };
 		17088C0C1E470A8A00398774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17088C0A1E470A8A00398774 /* Main.storyboard */; };
 		17088C0E1E470A8A00398774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17088C0D1E470A8A00398774 /* Assets.xcassets */; };
 		17088C111E470A8A00398774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17088C0F1E470A8A00398774 /* LaunchScreen.storyboard */; };
 		17088C1C1E470A8A00398774 /* BigbombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17088C1B1E470A8A00398774 /* BigbombTests.swift */; };
 		17088C271E470A8A00398774 /* BigbombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17088C261E470A8A00398774 /* BigbombUITests.swift */; };
+		1768469E1E505FF900B37935 /* BBHomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768469D1E505FF900B37935 /* BBHomeTabBarController.swift */; };
+		176846A51E50605B00B37935 /* BBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A41E50605B00B37935 /* BBHomeViewController.swift */; };
+		176846A71E50608500B37935 /* BBStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A61E50608500B37935 /* BBStoryViewController.swift */; };
+		176846A91E50608D00B37935 /* BBChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A81E50608D00B37935 /* BBChatViewController.swift */; };
+		176846AB1E50609600B37935 /* BBSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846AA1E50609600B37935 /* BBSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		17088C031E470A8A00398774 /* Bigbomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bigbomb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17088C061E470A8A00398774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17088C081E470A8A00398774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17088C0B1E470A8A00398774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17088C0D1E470A8A00398774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17088C101E470A8A00398774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		17088C221E470A8A00398774 /* BigbombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigbombUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17088C261E470A8A00398774 /* BigbombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigbombUITests.swift; sourceTree = "<group>"; };
 		17088C281E470A8A00398774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1768469D1E505FF900B37935 /* BBHomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeTabBarController.swift; sourceTree = "<group>"; };
+		176846A41E50605B00B37935 /* BBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeViewController.swift; sourceTree = "<group>"; };
+		176846A61E50608500B37935 /* BBStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBStoryViewController.swift; sourceTree = "<group>"; };
+		176846A81E50608D00B37935 /* BBChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBChatViewController.swift; sourceTree = "<group>"; };
+		176846AA1E50609600B37935 /* BBSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		17088C051E470A8A00398774 /* Bigbomb */ = {
 			isa = PBXGroup;
 			children = (
+				1768469F1E50600C00B37935 /* Main */,
+				176846A01E50602300B37935 /* Home */,
+				176846A21E50603200B37935 /* Story */,
+				176846A11E50602A00B37935 /* Chat */,
+				176846A31E50603800B37935 /* Setting */,
 				17088C061E470A8A00398774 /* AppDelegate.swift */,
-				17088C081E470A8A00398774 /* ViewController.swift */,
 				17088C0A1E470A8A00398774 /* Main.storyboard */,
 				17088C0D1E470A8A00398774 /* Assets.xcassets */,
 				17088C0F1E470A8A00398774 /* LaunchScreen.storyboard */,
@@ -123,6 +135,46 @@
 				17088C281E470A8A00398774 /* Info.plist */,
 			);
 			path = BigbombUITests;
+			sourceTree = "<group>";
+		};
+		1768469F1E50600C00B37935 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1768469D1E505FF900B37935 /* BBHomeTabBarController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		176846A01E50602300B37935 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				176846A41E50605B00B37935 /* BBHomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		176846A11E50602A00B37935 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				176846A81E50608D00B37935 /* BBChatViewController.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		176846A21E50603200B37935 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				176846A61E50608500B37935 /* BBStoryViewController.swift */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		176846A31E50603800B37935 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				176846AA1E50609600B37935 /* BBSettingViewController.swift */,
+			);
+			name = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					17088C021E470A8A00398774 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5WJTX489YZ;
 						ProvisioningStyle = Automatic;
 					};
 					17088C161E470A8A00398774 = {
@@ -259,8 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17088C091E470A8A00398774 /* ViewController.swift in Sources */,
+				1768469E1E505FF900B37935 /* BBHomeTabBarController.swift in Sources */,
+				176846A91E50608D00B37935 /* BBChatViewController.swift in Sources */,
 				17088C071E470A8A00398774 /* AppDelegate.swift in Sources */,
+				176846AB1E50609600B37935 /* BBSettingViewController.swift in Sources */,
+				176846A71E50608500B37935 /* BBStoryViewController.swift in Sources */,
+				176846A51E50605B00B37935 /* BBHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5WJTX489YZ;
 				INFOPLIST_FILE = Bigbomb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sejongdicon.Bigbomb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +481,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5WJTX489YZ;
 				INFOPLIST_FILE = Bigbomb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sejongdicon.Bigbomb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +564,7 @@
 				17088C2D1E470A8A00398774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17088C2E1E470A8A00398774 /* Build configuration list for PBXNativeTarget "BigbombTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +573,7 @@
 				17088C301E470A8A00398774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17088C311E470A8A00398774 /* Build configuration list for PBXNativeTarget "BigbombUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +582,7 @@
 				17088C331E470A8A00398774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
