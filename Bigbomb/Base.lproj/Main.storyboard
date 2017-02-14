@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -28,44 +29,6 @@
             </objects>
             <point key="canvasLocation" x="102" y="709"/>
         </scene>
-        <!--Chat-->
-        <scene sceneID="1V3-HV-R4M">
-            <objects>
-                <viewController id="Mkt-A4-v0d" userLabel="Chat" customClass="BBChatViewController" customModule="Bigbomb" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Lxp-7U-nDy"/>
-                        <viewControllerLayoutGuide type="bottom" id="nKp-X2-09Y"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OKj-pO-XmK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.98039215686274506" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Chat" id="S3Q-PZ-lQY" userLabel="Chat"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pHQ-lR-EmQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1031" y="54"/>
-        </scene>
-        <!--Setting-->
-        <scene sceneID="pbe-0p-oJb">
-            <objects>
-                <viewController id="veK-79-Tfo" userLabel="Setting" customClass="BBSettingViewController" customModule="Bigbomb" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zfa-RD-zop"/>
-                        <viewControllerLayoutGuide type="bottom" id="fms-JR-3uj"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jmV-Mz-oa8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Setting" id="c5n-gR-r7F" userLabel="Setting"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wiq-xv-qcz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1030" y="708"/>
-        </scene>
         <!--Home-->
         <scene sceneID="5fS-WN-MyC">
             <objects>
@@ -77,9 +40,58 @@
                     <view key="view" contentMode="scaleToFill" id="rpa-bg-dAc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqQ-qP-Jtn" userLabel="Logo View" customClass="BBHomeLogoView" customModule="Bigbomb" customModuleProvider="target">
+                                <rect key="frame" x="16" y="20" width="343" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="IeD-9m-wFt"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7Z-op-Cxe" userLabel="Barcode View" customClass="BBHomeBarcodeView" customModule="Bigbomb" customModuleProvider="target">
+                                <rect key="frame" x="16" y="80" width="343" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="7ap-41-rBu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y6W-6y-fY8" userLabel="Point View" customClass="BBHomePointView" customModule="Bigbomb" customModuleProvider="target">
+                                <rect key="frame" x="16" y="280" width="343" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="p5I-Db-nUz"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gaG-xu-nZ9" userLabel="MenuList TableView" customClass="BBHomeMenuListTableView" customModule="Bigbomb" customModuleProvider="target">
+                                <rect key="frame" x="16" y="340" width="343" height="278"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="prV-Mj-gV1" id="p9A-sC-8QS"/>
+                                    <outlet property="delegate" destination="prV-Mj-gV1" id="mgr-fY-UZQ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="n7Z-op-Cxe" firstAttribute="top" secondItem="mqQ-qP-Jtn" secondAttribute="bottom" id="4Hb-AK-I8D"/>
+                            <constraint firstItem="gaG-xu-nZ9" firstAttribute="leading" secondItem="rpa-bg-dAc" secondAttribute="leadingMargin" id="4nC-Sy-55I"/>
+                            <constraint firstItem="n7Z-op-Cxe" firstAttribute="leading" secondItem="rpa-bg-dAc" secondAttribute="leadingMargin" id="9mD-di-Y3i"/>
+                            <constraint firstItem="y6W-6y-fY8" firstAttribute="top" secondItem="n7Z-op-Cxe" secondAttribute="bottom" id="MtF-T3-mlf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y6W-6y-fY8" secondAttribute="trailing" id="Pmb-Bf-rTj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="n7Z-op-Cxe" secondAttribute="trailing" id="RKR-bQ-DYB"/>
+                            <constraint firstItem="gaG-xu-nZ9" firstAttribute="top" secondItem="y6W-6y-fY8" secondAttribute="bottom" id="VQD-cv-X25"/>
+                            <constraint firstItem="KCO-pK-ctP" firstAttribute="top" secondItem="gaG-xu-nZ9" secondAttribute="bottom" id="Xmx-I1-RxN"/>
+                            <constraint firstItem="mqQ-qP-Jtn" firstAttribute="leading" secondItem="rpa-bg-dAc" secondAttribute="leadingMargin" id="ZZz-Cb-6xj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mqQ-qP-Jtn" secondAttribute="trailing" id="ntG-JY-NNZ"/>
+                            <constraint firstItem="y6W-6y-fY8" firstAttribute="leading" secondItem="rpa-bg-dAc" secondAttribute="leadingMargin" id="slu-Ym-jcJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gaG-xu-nZ9" secondAttribute="trailing" id="u4k-5Q-hCO"/>
+                            <constraint firstItem="mqQ-qP-Jtn" firstAttribute="top" secondItem="wOj-X8-Xtz" secondAttribute="bottom" id="uwx-05-37S"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="AeG-fA-yf4" userLabel="Home"/>
+                    <connections>
+                        <outlet property="tableView" destination="gaG-xu-nZ9" id="cuc-zP-uOP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9DQ-Yr-CKl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,8 +109,6 @@
                     <connections>
                         <segue destination="prV-Mj-gV1" kind="relationship" relationship="viewControllers" id="5oY-Ku-q35"/>
                         <segue destination="nEM-Yq-f1J" kind="relationship" relationship="viewControllers" id="4KJ-zj-1S6"/>
-                        <segue destination="Mkt-A4-v0d" kind="relationship" relationship="viewControllers" id="7zS-cG-Fk3"/>
-                        <segue destination="veK-79-Tfo" kind="relationship" relationship="viewControllers" id="hpd-op-LdD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JrV-Kr-R8g" userLabel="First Responder" sceneMemberID="firstResponder"/>

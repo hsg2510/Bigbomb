@@ -8,20 +8,45 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var tableView: BBHomeMenuListTableView!
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.setupTableView()
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
+    
+    //MARK: tableview Delegate, DataSource
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return 1;
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let sCell:UITableViewCell = UITableViewCell();
+        
+        return sCell;
+    }
+    
+    
+    //MARK: privates
+    
+    private func setupTableView()
+    {
+        self.tableView.register(BBHomeMenuCell.self, forCellReuseIdentifier: NSStringFromClass(BBHomeMenuCell.self))
+    }
+    
     /*
     // MARK: - Navigation
 

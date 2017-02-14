@@ -15,9 +15,14 @@
 		17088C271E470A8A00398774 /* BigbombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17088C261E470A8A00398774 /* BigbombUITests.swift */; };
 		1768469E1E505FF900B37935 /* BBHomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1768469D1E505FF900B37935 /* BBHomeTabBarController.swift */; };
 		176846A51E50605B00B37935 /* BBHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A41E50605B00B37935 /* BBHomeViewController.swift */; };
-		176846A71E50608500B37935 /* BBStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A61E50608500B37935 /* BBStoryViewController.swift */; };
-		176846A91E50608D00B37935 /* BBChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A81E50608D00B37935 /* BBChatViewController.swift */; };
-		176846AB1E50609600B37935 /* BBSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846AA1E50609600B37935 /* BBSettingViewController.swift */; };
+		176846A71E50608500B37935 /* BBOrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176846A61E50608500B37935 /* BBOrderListViewController.swift */; };
+		179559591E51F1620033CDFF /* BBMemberRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559581E51F1620033CDFF /* BBMemberRegisterViewController.swift */; };
+		1795595F1E53B6920033CDFF /* BBHomeLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1795595E1E53B6920033CDFF /* BBHomeLogoView.swift */; };
+		179559611E53B6A40033CDFF /* BBHomeBarcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559601E53B6A40033CDFF /* BBHomeBarcodeView.swift */; };
+		179559631E53B6BD0033CDFF /* BBHomePointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559621E53B6BD0033CDFF /* BBHomePointView.swift */; };
+		179559651E53B6D40033CDFF /* BBHomeMenuListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559641E53B6D40033CDFF /* BBHomeMenuListTableView.swift */; };
+		179559681E53B9300033CDFF /* BBHomeMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559661E53B9300033CDFF /* BBHomeMenuCell.swift */; };
+		179559691E53B9300033CDFF /* BBHomeMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179559671E53B9300033CDFF /* BBHomeMenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +57,14 @@
 		17088C281E470A8A00398774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1768469D1E505FF900B37935 /* BBHomeTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeTabBarController.swift; sourceTree = "<group>"; };
 		176846A41E50605B00B37935 /* BBHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeViewController.swift; sourceTree = "<group>"; };
-		176846A61E50608500B37935 /* BBStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBStoryViewController.swift; sourceTree = "<group>"; };
-		176846A81E50608D00B37935 /* BBChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBChatViewController.swift; sourceTree = "<group>"; };
-		176846AA1E50609600B37935 /* BBSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBSettingViewController.swift; sourceTree = "<group>"; };
+		176846A61E50608500B37935 /* BBOrderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBOrderListViewController.swift; sourceTree = "<group>"; };
+		179559581E51F1620033CDFF /* BBMemberRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBMemberRegisterViewController.swift; sourceTree = "<group>"; };
+		1795595E1E53B6920033CDFF /* BBHomeLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeLogoView.swift; sourceTree = "<group>"; };
+		179559601E53B6A40033CDFF /* BBHomeBarcodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeBarcodeView.swift; sourceTree = "<group>"; };
+		179559621E53B6BD0033CDFF /* BBHomePointView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomePointView.swift; sourceTree = "<group>"; };
+		179559641E53B6D40033CDFF /* BBHomeMenuListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeMenuListTableView.swift; sourceTree = "<group>"; };
+		179559661E53B9300033CDFF /* BBHomeMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeMenuCell.swift; sourceTree = "<group>"; };
+		179559671E53B9300033CDFF /* BBHomeMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBHomeMenuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +115,9 @@
 		17088C051E470A8A00398774 /* Bigbomb */ = {
 			isa = PBXGroup;
 			children = (
-				1768469F1E50600C00B37935 /* Main */,
-				176846A01E50602300B37935 /* Home */,
-				176846A21E50603200B37935 /* Story */,
-				176846A11E50602A00B37935 /* Chat */,
-				176846A31E50603800B37935 /* Setting */,
+				179559531E51E7F80033CDFF /* Login */,
+				179559541E51E8050033CDFF /* V1 */,
+				179559551E51E81B0033CDFF /* V2 */,
 				17088C061E470A8A00398774 /* AppDelegate.swift */,
 				17088C0A1E470A8A00398774 /* Main.storyboard */,
 				17088C0D1E470A8A00398774 /* Assets.xcassets */,
@@ -148,33 +156,80 @@
 		176846A01E50602300B37935 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1795595A1E53B65A0033CDFF /* Logo */,
+				1795595B1E53B6610033CDFF /* Barcode */,
+				1795595D1E53B6720033CDFF /* Point */,
+				1795595C1E53B66A0033CDFF /* MenuList */,
 				176846A41E50605B00B37935 /* BBHomeViewController.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
 		};
-		176846A11E50602A00B37935 /* Chat */ = {
+		176846A21E50603200B37935 /* Order */ = {
 			isa = PBXGroup;
 			children = (
-				176846A81E50608D00B37935 /* BBChatViewController.swift */,
+				176846A61E50608500B37935 /* BBOrderListViewController.swift */,
 			);
-			name = Chat;
+			name = Order;
 			sourceTree = "<group>";
 		};
-		176846A21E50603200B37935 /* Story */ = {
+		179559531E51E7F80033CDFF /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				176846A61E50608500B37935 /* BBStoryViewController.swift */,
+				179559581E51F1620033CDFF /* BBMemberRegisterViewController.swift */,
 			);
-			name = Story;
+			name = Login;
 			sourceTree = "<group>";
 		};
-		176846A31E50603800B37935 /* Setting */ = {
+		179559541E51E8050033CDFF /* V1 */ = {
 			isa = PBXGroup;
 			children = (
-				176846AA1E50609600B37935 /* BBSettingViewController.swift */,
 			);
-			name = Setting;
+			name = V1;
+			sourceTree = "<group>";
+		};
+		179559551E51E81B0033CDFF /* V2 */ = {
+			isa = PBXGroup;
+			children = (
+				1768469F1E50600C00B37935 /* Main */,
+				176846A01E50602300B37935 /* Home */,
+				176846A21E50603200B37935 /* Order */,
+			);
+			name = V2;
+			sourceTree = "<group>";
+		};
+		1795595A1E53B65A0033CDFF /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				1795595E1E53B6920033CDFF /* BBHomeLogoView.swift */,
+			);
+			name = Logo;
+			sourceTree = "<group>";
+		};
+		1795595B1E53B6610033CDFF /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				179559601E53B6A40033CDFF /* BBHomeBarcodeView.swift */,
+			);
+			name = Barcode;
+			sourceTree = "<group>";
+		};
+		1795595C1E53B66A0033CDFF /* MenuList */ = {
+			isa = PBXGroup;
+			children = (
+				179559641E53B6D40033CDFF /* BBHomeMenuListTableView.swift */,
+				179559661E53B9300033CDFF /* BBHomeMenuCell.swift */,
+				179559671E53B9300033CDFF /* BBHomeMenuCell.xib */,
+			);
+			name = MenuList;
+			sourceTree = "<group>";
+		};
+		1795595D1E53B6720033CDFF /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				179559621E53B6BD0033CDFF /* BBHomePointView.swift */,
+			);
+			name = Point;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17088C111E470A8A00398774 /* LaunchScreen.storyboard in Resources */,
+				179559691E53B9300033CDFF /* BBHomeMenuCell.xib in Resources */,
 				17088C0E1E470A8A00398774 /* Assets.xcassets in Resources */,
 				17088C0C1E470A8A00398774 /* Main.storyboard in Resources */,
 			);
@@ -312,11 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179559651E53B6D40033CDFF /* BBHomeMenuListTableView.swift in Sources */,
 				1768469E1E505FF900B37935 /* BBHomeTabBarController.swift in Sources */,
-				176846A91E50608D00B37935 /* BBChatViewController.swift in Sources */,
 				17088C071E470A8A00398774 /* AppDelegate.swift in Sources */,
-				176846AB1E50609600B37935 /* BBSettingViewController.swift in Sources */,
-				176846A71E50608500B37935 /* BBStoryViewController.swift in Sources */,
+				179559631E53B6BD0033CDFF /* BBHomePointView.swift in Sources */,
+				179559611E53B6A40033CDFF /* BBHomeBarcodeView.swift in Sources */,
+				1795595F1E53B6920033CDFF /* BBHomeLogoView.swift in Sources */,
+				179559591E51F1620033CDFF /* BBMemberRegisterViewController.swift in Sources */,
+				179559681E53B9300033CDFF /* BBHomeMenuCell.swift in Sources */,
+				176846A71E50608500B37935 /* BBOrderListViewController.swift in Sources */,
 				176846A51E50605B00B37935 /* BBHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  BBSettingViewController.swift
+//  BBStoryViewController.swift
 //  Bigbomb
 //
 //  Created by SUNGGON HONG on 2017. 2. 12..
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BBSettingViewController: UIViewController {
+class BBOrderListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
