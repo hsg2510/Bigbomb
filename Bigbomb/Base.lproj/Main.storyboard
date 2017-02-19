@@ -43,9 +43,18 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mqQ-qP-Jtn" userLabel="Logo View" customClass="BBHomeLogoView" customModule="Bigbomb" customModuleProvider="target">
                                 <rect key="frame" x="16" y="20" width="343" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NLZ-Co-PFP" userLabel="Logo Image View">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="NLZ-Co-PFP" firstAttribute="width" secondItem="mqQ-qP-Jtn" secondAttribute="width" id="Fn0-lN-Umo"/>
                                     <constraint firstAttribute="height" constant="60" id="IeD-9m-wFt"/>
+                                    <constraint firstItem="NLZ-Co-PFP" firstAttribute="top" secondItem="mqQ-qP-Jtn" secondAttribute="top" id="SFW-KP-LS5"/>
+                                    <constraint firstItem="NLZ-Co-PFP" firstAttribute="leading" secondItem="mqQ-qP-Jtn" secondAttribute="leading" id="aBT-fY-Gum"/>
+                                    <constraint firstItem="NLZ-Co-PFP" firstAttribute="height" secondItem="mqQ-qP-Jtn" secondAttribute="height" id="gs5-hf-4yG"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7Z-op-Cxe" userLabel="Barcode View" customClass="BBHomeBarcodeView" customModule="Bigbomb" customModuleProvider="target">
@@ -90,6 +99,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="AeG-fA-yf4" userLabel="Home"/>
                     <connections>
+                        <outlet property="mLogoImageView" destination="NLZ-Co-PFP" id="fAQ-GQ-KBu"/>
                         <outlet property="tableView" destination="gaG-xu-nZ9" id="cuc-zP-uOP"/>
                     </connections>
                 </viewController>

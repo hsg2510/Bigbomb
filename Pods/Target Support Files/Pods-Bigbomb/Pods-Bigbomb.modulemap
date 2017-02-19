@@ -1,0 +1,6 @@
+framework module Pods_Bigbomb {
+  umbrella header "Pods-Bigbomb-umbrella.h"
+
+  export *
+  module * { export * }
+}

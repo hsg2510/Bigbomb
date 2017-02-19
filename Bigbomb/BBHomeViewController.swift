@@ -10,8 +10,8 @@ import UIKit
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    @IBOutlet weak var tableView: BBHomeMenuListTableView!
-    
+    @IBOutlet weak var mTableView: BBHomeMenuListTableView!
+    @IBOutlet weak var mLogoImageView: UIImageView!
     
     override func viewDidLoad()
     {
@@ -44,7 +44,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     private func setupTableView()
     {
-        self.tableView.register(BBHomeMenuCell.self, forCellReuseIdentifier: NSStringFromClass(BBHomeMenuCell.self))
+        mTableView.register(BBHomeMenuCell.self, forCellReuseIdentifier: NSStringFromClass(BBHomeMenuCell.self))
     }
     
     /*

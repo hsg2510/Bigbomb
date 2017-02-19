@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Bigbomb.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BigbombTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-BigbombUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RSBarcodes_Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>197B2861987E641C3B1CD21B899D8145</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>73A4EF42AB132CFC4DB67D77D4BC4792</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A97A5AF0B21101FD96A6C68AF8948B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB6C381AB980EAFD48327D45F2DEA917</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

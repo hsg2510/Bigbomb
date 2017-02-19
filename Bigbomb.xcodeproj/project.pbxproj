@@ -23,6 +23,9 @@
 		179559651E53B6D40033CDFF /* BBHomeMenuListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559641E53B6D40033CDFF /* BBHomeMenuListTableView.swift */; };
 		179559681E53B9300033CDFF /* BBHomeMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179559661E53B9300033CDFF /* BBHomeMenuCell.swift */; };
 		179559691E53B9300033CDFF /* BBHomeMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 179559671E53B9300033CDFF /* BBHomeMenuCell.xib */; };
+		51CD9C189EB2BF6C2A6D366E /* Pods_BigbombUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C17DB127843FCC8093F28F /* Pods_BigbombUITests.framework */; };
+		67BB76661E088B228EFDE866 /* Pods_BigbombTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D4ACE2380544E12E2A37C4 /* Pods_BigbombTests.framework */; };
+		A9A00E2EA145CFBAC1F8CDDA /* Pods_Bigbomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3224ABEDB58F792CA91B738 /* Pods_Bigbomb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,15 @@
 		179559641E53B6D40033CDFF /* BBHomeMenuListTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeMenuListTableView.swift; sourceTree = "<group>"; };
 		179559661E53B9300033CDFF /* BBHomeMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomeMenuCell.swift; sourceTree = "<group>"; };
 		179559671E53B9300033CDFF /* BBHomeMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBHomeMenuCell.xib; sourceTree = "<group>"; };
+		20AFB82BF939915C0164B33C /* Pods-BigbombTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigbombTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigbombTests/Pods-BigbombTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75EBB15A351644AEA06366A2 /* Pods-BigbombUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigbombUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigbombUITests/Pods-BigbombUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8145692375BF4AAB8E651677 /* Pods-BigbombUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigbombUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigbombUITests/Pods-BigbombUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB4A1F7AA46555E824390606 /* Pods-BigbombTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigbombTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigbombTests/Pods-BigbombTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE1860DBC734F4902AFC469 /* Pods-Bigbomb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigbomb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bigbomb/Pods-Bigbomb.debug.xcconfig"; sourceTree = "<group>"; };
+		CA5F20DE113A3012C9675E9A /* Pods-Bigbomb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigbomb.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bigbomb/Pods-Bigbomb.release.xcconfig"; sourceTree = "<group>"; };
+		D3C17DB127843FCC8093F28F /* Pods_BigbombUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigbombUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D4ACE2380544E12E2A37C4 /* Pods_BigbombTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigbombTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3224ABEDB58F792CA91B738 /* Pods_Bigbomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bigbomb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A00E2EA145CFBAC1F8CDDA /* Pods_Bigbomb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BB76661E088B228EFDE866 /* Pods_BigbombTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CD9C189EB2BF6C2A6D366E /* Pods_BigbombUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,8 @@
 				17088C1A1E470A8A00398774 /* BigbombTests */,
 				17088C251E470A8A00398774 /* BigbombUITests */,
 				17088C041E470A8A00398774 /* Products */,
+				4D8E28C724B04753326B7254 /* Pods */,
+				2EE594BCAB153FE6DD3D1674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,6 +249,29 @@
 			name = Point;
 			sourceTree = "<group>";
 		};
+		2EE594BCAB153FE6DD3D1674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3224ABEDB58F792CA91B738 /* Pods_Bigbomb.framework */,
+				D6D4ACE2380544E12E2A37C4 /* Pods_BigbombTests.framework */,
+				D3C17DB127843FCC8093F28F /* Pods_BigbombUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D8E28C724B04753326B7254 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1860DBC734F4902AFC469 /* Pods-Bigbomb.debug.xcconfig */,
+				CA5F20DE113A3012C9675E9A /* Pods-Bigbomb.release.xcconfig */,
+				20AFB82BF939915C0164B33C /* Pods-BigbombTests.debug.xcconfig */,
+				AB4A1F7AA46555E824390606 /* Pods-BigbombTests.release.xcconfig */,
+				75EBB15A351644AEA06366A2 /* Pods-BigbombUITests.debug.xcconfig */,
+				8145692375BF4AAB8E651677 /* Pods-BigbombUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17088C2B1E470A8A00398774 /* Build configuration list for PBXNativeTarget "Bigbomb" */;
 			buildPhases = (
+				EE0EC1021DDA3523538549F5 /* [CP] Check Pods Manifest.lock */,
 				17088BFF1E470A8A00398774 /* Sources */,
 				17088C001E470A8A00398774 /* Frameworks */,
 				17088C011E470A8A00398774 /* Resources */,
+				FF160EECBF6D9111742DAF31 /* [CP] Embed Pods Frameworks */,
+				0F16BCD7A5B2686765E9DAEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17088C2E1E470A8A00398774 /* Build configuration list for PBXNativeTarget "BigbombTests" */;
 			buildPhases = (
+				A11A2708999C8DB6812C69B3 /* [CP] Check Pods Manifest.lock */,
 				17088C131E470A8A00398774 /* Sources */,
 				17088C141E470A8A00398774 /* Frameworks */,
 				17088C151E470A8A00398774 /* Resources */,
+				F9903160D00031F47DA46CCE /* [CP] Embed Pods Frameworks */,
+				3B731F2647C8629D1D5ECB37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,9 +320,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17088C311E470A8A00398774 /* Build configuration list for PBXNativeTarget "BigbombUITests" */;
 			buildPhases = (
+				0AB534BD92B37C628473BABC /* [CP] Check Pods Manifest.lock */,
 				17088C1E1E470A8A00398774 /* Sources */,
 				17088C1F1E470A8A00398774 /* Frameworks */,
 				17088C201E470A8A00398774 /* Resources */,
+				66E6E580FDD268C841E5A6BF /* [CP] Embed Pods Frameworks */,
+				4EE9F8AE6033063140B32CDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -362,6 +411,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB534BD92B37C628473BABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F16BCD7A5B2686765E9DAEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bigbomb/Pods-Bigbomb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B731F2647C8629D1D5ECB37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigbombTests/Pods-BigbombTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE9F8AE6033063140B32CDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigbombUITests/Pods-BigbombUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66E6E580FDD268C841E5A6BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigbombUITests/Pods-BigbombUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11A2708999C8DB6812C69B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0EC1021DDA3523538549F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9903160D00031F47DA46CCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigbombTests/Pods-BigbombTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF160EECBF6D9111742DAF31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bigbomb/Pods-Bigbomb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17088BFF1E470A8A00398774 /* Sources */ = {
@@ -525,6 +712,7 @@
 		};
 		17088C2C1E470A8A00398774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE1860DBC734F4902AFC469 /* Pods-Bigbomb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5WJTX489YZ;
@@ -539,6 +727,7 @@
 		};
 		17088C2D1E470A8A00398774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5F20DE113A3012C9675E9A /* Pods-Bigbomb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5WJTX489YZ;
@@ -553,6 +742,7 @@
 		};
 		17088C2F1E470A8A00398774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20AFB82BF939915C0164B33C /* Pods-BigbombTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -567,6 +757,7 @@
 		};
 		17088C301E470A8A00398774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4A1F7AA46555E824390606 /* Pods-BigbombTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,6 +772,7 @@
 		};
 		17088C321E470A8A00398774 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EBB15A351644AEA06366A2 /* Pods-BigbombUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BigbombUITests/Info.plist;
@@ -594,6 +786,7 @@
 		};
 		17088C331E470A8A00398774 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8145692375BF4AAB8E651677 /* Pods-BigbombUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = BigbombUITests/Info.plist;

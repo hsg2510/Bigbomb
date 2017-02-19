@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14D189DC8C5A24DE3A371FC91F91ABCD /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2539268B2757B5FD21C3D60A16755 /* RSCornersLayer.swift */; };
+		17B83AC5316F84BD2DF22BB5604DB195 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925814B336B76F0C40F89C28BF164FB0 /* StringExtension.swift */; };
+		1BD6F7F4CF8485D92FCF73E7F8252F70 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C037C48FDACFEDB13E8CE9E42A1F622 /* RSCodeReaderViewController.swift */; };
+		2284918946934B078FC43B09B45EF5E5 /* ContextMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EEBD47BEFBFB707A69D20C1F7A0513 /* ContextMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DEB5721EA446A22D6744D3A44D9FB0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C5B217D5617FE6D67DD887D33F914B /* CoreImage.framework */; };
+		3EFE409D28069548869AD0BE65FF844B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */; };
+		42BEF8417936EF29D64B3549972B7EDD /* RSBarcodes_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6E695EDA5D5C383D40B07331DFB6E9 /* RSBarcodes_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45735D68E291BD74D50C7DF3640DF09E /* Pods-BigbombTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FA9048D32ECA45C55A90AAB42B0515 /* Pods-BigbombTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49649A8E761CB6F3260C0105E87C977F /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149A813FCA88DF5031E8399B794FEE87 /* RSExtendedCode39Generator.swift */; };
+		4C2FF846F8760507F8F8299A1C9B9574 /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE081E7D80BDD23D41C20AA1DE1890D /* RSITF14Generator.swift */; };
+		55E3BA9B2703DF30D6D06DB1A5382D08 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237D1D09D5E4B1DE2C1836AB2CC5A0 /* RSUPCEGenerator.swift */; };
+		65FD64CBAF0B77C1B26676DD633DE23A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */; };
+		68EE42CFD467ED419349CF0432EDC2D7 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03334A8456E0B44E325200D56237E110 /* RSCode39Generator.swift */; };
+		728F5B97BC4D7E0ECD0D298C13A590E8 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77826C6244DF3FEF47F3FD5FA74C92EB /* RSCode39Mod43Generator.swift */; };
+		74A633775B3D7A42A9D99A033736C882 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95CD7E68A1744441B7B68FCED25984 /* AVFoundation.framework */; };
+		7D4EDF33796EBA4DDE9259EEC023E24A /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C450539E03AD95F34CBD36C993DED0 /* RSCodeLayer.swift */; };
+		8670C99BDD285A9587B0D3446AB20937 /* RSUnifiedCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ED43563AA4531375F9F62E4AB0217 /* RSUnifiedCodeValidator.swift */; };
+		909B36739C4121D3DBFD0525671A733A /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1034651CCF0D735085B16F5F7176761D /* RSITFGenerator.swift */; };
+		93893115A5DC406C70F8B7BF93C4C487 /* RSBarcodes_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6313741E19B5BE56C06F5621A8080D /* RSBarcodes_Swift-dummy.m */; };
+		938A3BCCA20DE33DF9C77C8710BDE45A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF0DB552DD62DCBBE1F8D829119A285 /* QuartzCore.framework */; };
+		9864A2D2BD6E02DD00568AB616EE736B /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A4A4439F31658FB2FCBA4CA6233FA /* RSUnifiedCodeGenerator.swift */; };
+		98F5C64DA9E30C58E0083DEC0A515B04 /* Pods-Bigbomb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A17CCC9CDDD512D86DE0E05D74427D88 /* Pods-Bigbomb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42CC5470A8E591D990584D08C942017 /* Pods-BigbombUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 162C8D297851F35C74A78DE71FDB19B4 /* Pods-BigbombUITests-dummy.m */; };
+		A69A07C5EB36CB96FACF4AB033EB3E48 /* Pods-Bigbomb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A16BF3F67826C44F18A741A1B2705B /* Pods-Bigbomb-dummy.m */; };
+		AA634EB99C875BEBFED4DE9ECA4F5AC6 /* RSCodeDataMatrixGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88552B7E0D24FBE916DCD36781E5739D /* RSCodeDataMatrixGenerator.swift */; };
+		AC2DEB4C672AA673B698DF51A346F4AB /* ContextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23323F9BC251CF5E8773C89D1905AC /* ContextMaker.m */; };
+		B00EEB1A2164762F47EC02C7304A82E0 /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9036960B6746086918BDA0F0BF469 /* RSFocusMarkLayer.swift */; };
+		B29EA172AC00907D3373F844FB765908 /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F771EED83DE494C4A74225B068F5C /* RSCode93Generator.swift */; };
+		B2ABB7EB2080641208C5DCD1AAA7B90D /* RSBarcodes-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D40AB0F5CB791677F0C663790DC6A9 /* RSBarcodes-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC8E24C13C6232932F2C743A2805FE5 /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67204A5CBE6185E80201F150DA6F8321 /* RSCode128Generator.swift */; };
+		C232EAC381EBA3613665399A6E550BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */; };
+		C804911ADEB749A669100B608B06DD46 /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D1B77DD4B939480DA7DE8DAB7D56EC /* RSEANGenerator.swift */; };
+		E0DE05ACC642E5E9E0E2622055BFDE6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */; };
+		E2355E27ACA2821C3E9AF78B7C6849C4 /* Pods-BigbombTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA775E04768198F75FE3A3103C3074B /* Pods-BigbombTests-dummy.m */; };
+		E37DF2605B329C8C41462DCCB1826A54 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94222D46AC5D00B4845632BA522305A /* RSCodeGenerator.swift */; };
+		E4ECC353D1D2652F3D67FDF44975F7A3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330F14BF0CD6106566F319BE38004F5 /* UIColorExtension.swift */; };
+		FB8B2C86B403D513ECAA1CFA272F1F51 /* Pods-BigbombUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F033BDBDF25ACD6C603A0FF1034A219 /* Pods-BigbombUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A7F8978031865C256283B924DAEAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197B2861987E641C3B1CD21B899D8145;
+			remoteInfo = RSBarcodes_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FA9048D32ECA45C55A90AAB42B0515 /* Pods-BigbombTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigbombTests-umbrella.h"; sourceTree = "<group>"; };
+		02209D2FCD3C45087051461362B7FBEA /* Pods_BigbombUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigbombUITests.framework; path = "Pods-BigbombUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03334A8456E0B44E325200D56237E110 /* RSCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Generator.swift; path = Source/RSCode39Generator.swift; sourceTree = "<group>"; };
+		05A16BF3F67826C44F18A741A1B2705B /* Pods-Bigbomb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bigbomb-dummy.m"; sourceTree = "<group>"; };
+		0A35CF1E7F7B398342A737442C2B5CFD /* Pods-BigbombUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigbombUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1034651CCF0D735085B16F5F7176761D /* RSITFGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITFGenerator.swift; path = Source/RSITFGenerator.swift; sourceTree = "<group>"; };
+		149A813FCA88DF5031E8399B794FEE87 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSExtendedCode39Generator.swift; path = Source/RSExtendedCode39Generator.swift; sourceTree = "<group>"; };
+		162C8D297851F35C74A78DE71FDB19B4 /* Pods-BigbombUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigbombUITests-dummy.m"; sourceTree = "<group>"; };
+		176439208705131E84E881877CF845CF /* RSBarcodes_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RSBarcodes_Swift.modulemap; sourceTree = "<group>"; };
+		1B08D19A02CC1D7A503E083C2F62BD80 /* Pods_Bigbomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bigbomb.framework; path = "Pods-Bigbomb.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB9036960B6746086918BDA0F0BF469 /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFocusMarkLayer.swift; path = Source/RSFocusMarkLayer.swift; sourceTree = "<group>"; };
+		1CD09AFB5BFEE6FB4A093F8BEFE49365 /* RSBarcodes_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSBarcodes_Swift.framework; path = RSBarcodes_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211A4A4439F31658FB2FCBA4CA6233FA /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeGenerator.swift; path = Source/RSUnifiedCodeGenerator.swift; sourceTree = "<group>"; };
+		26D1B77DD4B939480DA7DE8DAB7D56EC /* RSEANGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSEANGenerator.swift; path = Source/RSEANGenerator.swift; sourceTree = "<group>"; };
+		2A02BB51706D197FB2A5F461FE128B85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BA775E04768198F75FE3A3103C3074B /* Pods-BigbombTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigbombTests-dummy.m"; sourceTree = "<group>"; };
+		2DE71F6981287D56F671F22B67DD52DD /* Pods-BigbombUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigbombUITests-resources.sh"; sourceTree = "<group>"; };
+		3677DFA39FDE43DE11D654495EA5F192 /* Pods-Bigbomb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bigbomb.debug.xcconfig"; sourceTree = "<group>"; };
+		3D45A5BE48082D69DEF7E42490FE9E8F /* Pods-BigbombUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigbombUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42B91884746371768CE6DC83B9342813 /* Pods-Bigbomb-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bigbomb-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E7D13A88F80E02123157114C30E7362 /* Pods-BigbombUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigbombUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EA2539268B2757B5FD21C3D60A16755 /* RSCornersLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = Source/RSCornersLayer.swift; sourceTree = "<group>"; };
+		50EEBD47BEFBFB707A69D20C1F7A0513 /* ContextMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContextMaker.h; path = Source/ContextMaker.h; sourceTree = "<group>"; };
+		5897BF3138ED884EB9F19538C7F9499D /* Pods-BigbombTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigbombTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59B57767080109520AC66363ADA7B47B /* Pods-Bigbomb-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bigbomb-resources.sh"; sourceTree = "<group>"; };
+		67204A5CBE6185E80201F150DA6F8321 /* RSCode128Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode128Generator.swift; path = Source/RSCode128Generator.swift; sourceTree = "<group>"; };
+		67521AE0D63065CC1214445B4B513F4A /* Pods-BigbombTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigbombTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B2677783432FD23D780BBC41C470E5F /* Pods_BigbombTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BigbombTests.framework; path = "Pods-BigbombTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8138D330FE30AC9D909396D2787FD8 /* Pods-Bigbomb-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bigbomb-acknowledgements.plist"; sourceTree = "<group>"; };
+		7330F14BF0CD6106566F319BE38004F5 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
+		77826C6244DF3FEF47F3FD5FA74C92EB /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Mod43Generator.swift; path = Source/RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
+		78273FDE8D2432CB4A0825E558AD5CB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A237D1D09D5E4B1DE2C1836AB2CC5A0 /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUPCEGenerator.swift; path = Source/RSUPCEGenerator.swift; sourceTree = "<group>"; };
+		7C037C48FDACFEDB13E8CE9E42A1F622 /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = Source/RSCodeReaderViewController.swift; sourceTree = "<group>"; };
+		7F033BDBDF25ACD6C603A0FF1034A219 /* Pods-BigbombUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigbombUITests-umbrella.h"; sourceTree = "<group>"; };
+		816F639CDBD4CBA30C032DBF8F34F6CF /* Pods-Bigbomb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Bigbomb.modulemap"; sourceTree = "<group>"; };
+		85D95B19BB6271B9F2DCFAD1189BB48E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C450539E03AD95F34CBD36C993DED0 /* RSCodeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = Source/RSCodeLayer.swift; sourceTree = "<group>"; };
+		88552B7E0D24FBE916DCD36781E5739D /* RSCodeDataMatrixGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeDataMatrixGenerator.swift; path = Source/RSCodeDataMatrixGenerator.swift; sourceTree = "<group>"; };
+		8FE081E7D80BDD23D41C20AA1DE1890D /* RSITF14Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITF14Generator.swift; path = Source/RSITF14Generator.swift; sourceTree = "<group>"; };
+		925814B336B76F0C40F89C28BF164FB0 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BB3D0F96B02165E55A36D8CEFCEE9F /* RSBarcodes_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes_Swift-prefix.pch"; sourceTree = "<group>"; };
+		9A6E695EDA5D5C383D40B07331DFB6E9 /* RSBarcodes_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes_Swift-umbrella.h"; sourceTree = "<group>"; };
+		9C5ED43563AA4531375F9F62E4AB0217 /* RSUnifiedCodeValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeValidator.swift; path = Source/RSUnifiedCodeValidator.swift; sourceTree = "<group>"; };
+		9D95CD7E68A1744441B7B68FCED25984 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A17CCC9CDDD512D86DE0E05D74427D88 /* Pods-Bigbomb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bigbomb-umbrella.h"; sourceTree = "<group>"; };
+		A6DF32C316626040A379A3AB7B74D3DD /* Pods-BigbombUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigbombUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD23323F9BC251CF5E8773C89D1905AC /* ContextMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ContextMaker.m; path = Source/ContextMaker.m; sourceTree = "<group>"; };
+		B0D40AB0F5CB791677F0C663790DC6A9 /* RSBarcodes-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSBarcodes-Bridging-Header.h"; path = "Source/RSBarcodes-Bridging-Header.h"; sourceTree = "<group>"; };
+		B1C5B217D5617FE6D67DD887D33F914B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBarcodes_Swift.xcconfig; sourceTree = "<group>"; };
+		B94222D46AC5D00B4845632BA522305A /* RSCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeGenerator.swift; path = Source/RSCodeGenerator.swift; sourceTree = "<group>"; };
+		BC6313741E19B5BE56C06F5621A8080D /* RSBarcodes_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBarcodes_Swift-dummy.m"; sourceTree = "<group>"; };
+		BDD61C840E033AE6F3CCCD4863CE427D /* Pods-Bigbomb-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bigbomb-frameworks.sh"; sourceTree = "<group>"; };
+		BEF0DB552DD62DCBBE1F8D829119A285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		C5E9999FF648EC956B4C7943B503A820 /* Pods-BigbombUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BigbombUITests.modulemap"; sourceTree = "<group>"; };
+		CCD62E185B9A8D4DF2C3507DE02A0EDE /* Pods-BigbombTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigbombTests-frameworks.sh"; sourceTree = "<group>"; };
+		CDE7F183994C32FC44AE8B1A0B57872B /* Pods-BigbombTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigbombTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5036918514AD9E525EDDC3D64E5170A /* Pods-BigbombTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BigbombTests.modulemap"; sourceTree = "<group>"; };
+		D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB26A5BB576C1CFFE824CEDBC83BC877 /* Pods-Bigbomb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bigbomb.release.xcconfig"; sourceTree = "<group>"; };
+		DEC31ADBAD6E20600E90D4DAA56BF0A4 /* Pods-BigbombUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigbombUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E5DAFBBEC2463BD3399EADF5E70CBA96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3F771EED83DE494C4A74225B068F5C /* RSCode93Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode93Generator.swift; path = Source/RSCode93Generator.swift; sourceTree = "<group>"; };
+		F3529427EE196A3C1994BC57E996029C /* Pods-BigbombTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigbombTests-resources.sh"; sourceTree = "<group>"; };
+		FFA9CB5B63EA65D283EF7B8698D0483E /* Pods-BigbombTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigbombTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E4821CE7EF378063A09BC7E4B783986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FD64CBAF0B77C1B26676DD633DE23A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A97B50338BDEFF9ED0198BBB7B095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFE409D28069548869AD0BE65FF844B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BC0EE206A2A1AB25ED79681EB14947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DE05ACC642E5E9E0E2622055BFDE6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8D8C28FBBBE8677BEF0405F02BF9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A633775B3D7A42A9D99A033736C882 /* AVFoundation.framework in Frameworks */,
+				24DEB5721EA446A22D6744D3A44D9FB0 /* CoreImage.framework in Frameworks */,
+				C232EAC381EBA3613665399A6E550BC1 /* Foundation.framework in Frameworks */,
+				938A3BCCA20DE33DF9C77C8710BDE45A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D645AA25568ADB41CE7EAE600BCEBA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D130B619C19C00E99507156ECB449EC /* RSBarcodes_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				523BC2E4D500A2EF29E43A00C2C663A0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D130B619C19C00E99507156ECB449EC /* RSBarcodes_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				50EEBD47BEFBFB707A69D20C1F7A0513 /* ContextMaker.h */,
+				AD23323F9BC251CF5E8773C89D1905AC /* ContextMaker.m */,
+				B0D40AB0F5CB791677F0C663790DC6A9 /* RSBarcodes-Bridging-Header.h */,
+				67204A5CBE6185E80201F150DA6F8321 /* RSCode128Generator.swift */,
+				03334A8456E0B44E325200D56237E110 /* RSCode39Generator.swift */,
+				77826C6244DF3FEF47F3FD5FA74C92EB /* RSCode39Mod43Generator.swift */,
+				EF3F771EED83DE494C4A74225B068F5C /* RSCode93Generator.swift */,
+				88552B7E0D24FBE916DCD36781E5739D /* RSCodeDataMatrixGenerator.swift */,
+				B94222D46AC5D00B4845632BA522305A /* RSCodeGenerator.swift */,
+				86C450539E03AD95F34CBD36C993DED0 /* RSCodeLayer.swift */,
+				7C037C48FDACFEDB13E8CE9E42A1F622 /* RSCodeReaderViewController.swift */,
+				4EA2539268B2757B5FD21C3D60A16755 /* RSCornersLayer.swift */,
+				26D1B77DD4B939480DA7DE8DAB7D56EC /* RSEANGenerator.swift */,
+				149A813FCA88DF5031E8399B794FEE87 /* RSExtendedCode39Generator.swift */,
+				1BB9036960B6746086918BDA0F0BF469 /* RSFocusMarkLayer.swift */,
+				8FE081E7D80BDD23D41C20AA1DE1890D /* RSITF14Generator.swift */,
+				1034651CCF0D735085B16F5F7176761D /* RSITFGenerator.swift */,
+				211A4A4439F31658FB2FCBA4CA6233FA /* RSUnifiedCodeGenerator.swift */,
+				9C5ED43563AA4531375F9F62E4AB0217 /* RSUnifiedCodeValidator.swift */,
+				7A237D1D09D5E4B1DE2C1836AB2CC5A0 /* RSUPCEGenerator.swift */,
+				925814B336B76F0C40F89C28BF164FB0 /* StringExtension.swift */,
+				7330F14BF0CD6106566F319BE38004F5 /* UIColorExtension.swift */,
+				B6503422038CB434F698C91AB51D39B7 /* Support Files */,
+			);
+			name = RSBarcodes_Swift;
+			path = RSBarcodes_Swift;
+			sourceTree = "<group>";
+		};
+		523BC2E4D500A2EF29E43A00C2C663A0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D95CD7E68A1744441B7B68FCED25984 /* AVFoundation.framework */,
+				B1C5B217D5617FE6D67DD887D33F914B /* CoreImage.framework */,
+				D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */,
+				BEF0DB552DD62DCBBE1F8D829119A285 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		598DCAD1EF96DCDB2E52A9138BB29B0A /* Pods-BigbombTests */ = {
+			isa = PBXGroup;
+			children = (
+				85D95B19BB6271B9F2DCFAD1189BB48E /* Info.plist */,
+				D5036918514AD9E525EDDC3D64E5170A /* Pods-BigbombTests.modulemap */,
+				5897BF3138ED884EB9F19538C7F9499D /* Pods-BigbombTests-acknowledgements.markdown */,
+				CDE7F183994C32FC44AE8B1A0B57872B /* Pods-BigbombTests-acknowledgements.plist */,
+				2BA775E04768198F75FE3A3103C3074B /* Pods-BigbombTests-dummy.m */,
+				CCD62E185B9A8D4DF2C3507DE02A0EDE /* Pods-BigbombTests-frameworks.sh */,
+				F3529427EE196A3C1994BC57E996029C /* Pods-BigbombTests-resources.sh */,
+				01FA9048D32ECA45C55A90AAB42B0515 /* Pods-BigbombTests-umbrella.h */,
+				FFA9CB5B63EA65D283EF7B8698D0483E /* Pods-BigbombTests.debug.xcconfig */,
+				67521AE0D63065CC1214445B4B513F4A /* Pods-BigbombTests.release.xcconfig */,
+			);
+			name = "Pods-BigbombTests";
+			path = "Target Support Files/Pods-BigbombTests";
+			sourceTree = "<group>";
+		};
+		612293E952A0BF8BF89CBC28B8EC48C8 /* Pods-BigbombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78273FDE8D2432CB4A0825E558AD5CB7 /* Info.plist */,
+				C5E9999FF648EC956B4C7943B503A820 /* Pods-BigbombUITests.modulemap */,
+				4E7D13A88F80E02123157114C30E7362 /* Pods-BigbombUITests-acknowledgements.markdown */,
+				A6DF32C316626040A379A3AB7B74D3DD /* Pods-BigbombUITests-acknowledgements.plist */,
+				162C8D297851F35C74A78DE71FDB19B4 /* Pods-BigbombUITests-dummy.m */,
+				DEC31ADBAD6E20600E90D4DAA56BF0A4 /* Pods-BigbombUITests-frameworks.sh */,
+				2DE71F6981287D56F671F22B67DD52DD /* Pods-BigbombUITests-resources.sh */,
+				7F033BDBDF25ACD6C603A0FF1034A219 /* Pods-BigbombUITests-umbrella.h */,
+				3D45A5BE48082D69DEF7E42490FE9E8F /* Pods-BigbombUITests.debug.xcconfig */,
+				0A35CF1E7F7B398342A737442C2B5CFD /* Pods-BigbombUITests.release.xcconfig */,
+			);
+			name = "Pods-BigbombUITests";
+			path = "Target Support Files/Pods-BigbombUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				0D645AA25568ADB41CE7EAE600BCEBA7 /* Pods */,
+				9792ACC9E0F5AEBA0C50580A042E7E92 /* Products */,
+				DF032BBF390D23C6AAA639DDDC627D19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9792ACC9E0F5AEBA0C50580A042E7E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B08D19A02CC1D7A503E083C2F62BD80 /* Pods_Bigbomb.framework */,
+				6B2677783432FD23D780BBC41C470E5F /* Pods_BigbombTests.framework */,
+				02209D2FCD3C45087051461362B7FBEA /* Pods_BigbombUITests.framework */,
+				1CD09AFB5BFEE6FB4A093F8BEFE49365 /* RSBarcodes_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6503422038CB434F698C91AB51D39B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5DAFBBEC2463BD3399EADF5E70CBA96 /* Info.plist */,
+				176439208705131E84E881877CF845CF /* RSBarcodes_Swift.modulemap */,
+				B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */,
+				BC6313741E19B5BE56C06F5621A8080D /* RSBarcodes_Swift-dummy.m */,
+				99BB3D0F96B02165E55A36D8CEFCEE9F /* RSBarcodes_Swift-prefix.pch */,
+				9A6E695EDA5D5C383D40B07331DFB6E9 /* RSBarcodes_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSBarcodes_Swift";
+			sourceTree = "<group>";
+		};
+		D058C8A760B0660F7F4173E57F92C528 /* Pods-Bigbomb */ = {
+			isa = PBXGroup;
+			children = (
+				2A02BB51706D197FB2A5F461FE128B85 /* Info.plist */,
+				816F639CDBD4CBA30C032DBF8F34F6CF /* Pods-Bigbomb.modulemap */,
+				42B91884746371768CE6DC83B9342813 /* Pods-Bigbomb-acknowledgements.markdown */,
+				6C8138D330FE30AC9D909396D2787FD8 /* Pods-Bigbomb-acknowledgements.plist */,
+				05A16BF3F67826C44F18A741A1B2705B /* Pods-Bigbomb-dummy.m */,
+				BDD61C840E033AE6F3CCCD4863CE427D /* Pods-Bigbomb-frameworks.sh */,
+				59B57767080109520AC66363ADA7B47B /* Pods-Bigbomb-resources.sh */,
+				A17CCC9CDDD512D86DE0E05D74427D88 /* Pods-Bigbomb-umbrella.h */,
+				3677DFA39FDE43DE11D654495EA5F192 /* Pods-Bigbomb.debug.xcconfig */,
+				DB26A5BB576C1CFFE824CEDBC83BC877 /* Pods-Bigbomb.release.xcconfig */,
+			);
+			name = "Pods-Bigbomb";
+			path = "Target Support Files/Pods-Bigbomb";
+			sourceTree = "<group>";
+		};
+		DF032BBF390D23C6AAA639DDDC627D19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D058C8A760B0660F7F4173E57F92C528 /* Pods-Bigbomb */,
+				598DCAD1EF96DCDB2E52A9138BB29B0A /* Pods-BigbombTests */,
+				612293E952A0BF8BF89CBC28B8EC48C8 /* Pods-BigbombUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21C3AF2DB681192320F9FABDA9A39027 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2284918946934B078FC43B09B45EF5E5 /* ContextMaker.h in Headers */,
+				B2ABB7EB2080641208C5DCD1AAA7B90D /* RSBarcodes-Bridging-Header.h in Headers */,
+				42BEF8417936EF29D64B3549972B7EDD /* RSBarcodes_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0A935B939D8690D410C4E20D129071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45735D68E291BD74D50C7DF3640DF09E /* Pods-BigbombTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B963A2C8E8903BD7B8206B95A8AD7A8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F5C64DA9E30C58E0083DEC0A515B04 /* Pods-Bigbomb-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2FEDA91F8C0D83EFEB704C74FCF20A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8B2C86B403D513ECAA1CFA272F1F51 /* Pods-BigbombUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		197B2861987E641C3B1CD21B899D8145 /* RSBarcodes_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F762E32D7ABA626B30863B695A206D /* Build configuration list for PBXNativeTarget "RSBarcodes_Swift" */;
+			buildPhases = (
+				99CF8EB08CDACA99F52EAB1DF8B72FE2 /* Sources */,
+				CB8D8C28FBBBE8677BEF0405F02BF9D9 /* Frameworks */,
+				21C3AF2DB681192320F9FABDA9A39027 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBarcodes_Swift;
+			productName = RSBarcodes_Swift;
+			productReference = 1CD09AFB5BFEE6FB4A093F8BEFE49365 /* RSBarcodes_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73A4EF42AB132CFC4DB67D77D4BC4792 /* Pods-Bigbomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E486FCC3620D2AA58E909E33EB4BC8FE /* Build configuration list for PBXNativeTarget "Pods-Bigbomb" */;
+			buildPhases = (
+				905C3A3932D31285C83DB3088B53F2FA /* Sources */,
+				848A97B50338BDEFF9ED0198BBB7B095 /* Frameworks */,
+				B963A2C8E8903BD7B8206B95A8AD7A8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D08723582A50111628681315E2CB9F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bigbomb";
+			productName = "Pods-Bigbomb";
+			productReference = 1B08D19A02CC1D7A503E083C2F62BD80 /* Pods_Bigbomb.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A97A5AF0B21101FD96A6C68AF8948B4 /* Pods-BigbombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11893EFA1AB18ECF481052F1504EED2F /* Build configuration list for PBXNativeTarget "Pods-BigbombUITests" */;
+			buildPhases = (
+				99E99917933C47E1EAE96915AE8C97E4 /* Sources */,
+				0E4821CE7EF378063A09BC7E4B783986 /* Frameworks */,
+				F2FEDA91F8C0D83EFEB704C74FCF20A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BigbombUITests";
+			productName = "Pods-BigbombUITests";
+			productReference = 02209D2FCD3C45087051461362B7FBEA /* Pods_BigbombUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB6C381AB980EAFD48327D45F2DEA917 /* Pods-BigbombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E708188DDEE443468ECD49DD0F9A22B3 /* Build configuration list for PBXNativeTarget "Pods-BigbombTests" */;
+			buildPhases = (
+				9E6263973F2A4DBD177A837C5F90C638 /* Sources */,
+				87BC0EE206A2A1AB25ED79681EB14947 /* Frameworks */,
+				3C0A935B939D8690D410C4E20D129071 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BigbombTests";
+			productName = "Pods-BigbombTests";
+			productReference = 6B2677783432FD23D780BBC41C470E5F /* Pods_BigbombTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9792ACC9E0F5AEBA0C50580A042E7E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A4EF42AB132CFC4DB67D77D4BC4792 /* Pods-Bigbomb */,
+				EB6C381AB980EAFD48327D45F2DEA917 /* Pods-BigbombTests */,
+				7A97A5AF0B21101FD96A6C68AF8948B4 /* Pods-BigbombUITests */,
+				197B2861987E641C3B1CD21B899D8145 /* RSBarcodes_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905C3A3932D31285C83DB3088B53F2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A07C5EB36CB96FACF4AB033EB3E48 /* Pods-Bigbomb-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CF8EB08CDACA99F52EAB1DF8B72FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2DEB4C672AA673B698DF51A346F4AB /* ContextMaker.m in Sources */,
+				93893115A5DC406C70F8B7BF93C4C487 /* RSBarcodes_Swift-dummy.m in Sources */,
+				BDC8E24C13C6232932F2C743A2805FE5 /* RSCode128Generator.swift in Sources */,
+				68EE42CFD467ED419349CF0432EDC2D7 /* RSCode39Generator.swift in Sources */,
+				728F5B97BC4D7E0ECD0D298C13A590E8 /* RSCode39Mod43Generator.swift in Sources */,
+				B29EA172AC00907D3373F844FB765908 /* RSCode93Generator.swift in Sources */,
+				AA634EB99C875BEBFED4DE9ECA4F5AC6 /* RSCodeDataMatrixGenerator.swift in Sources */,
+				E37DF2605B329C8C41462DCCB1826A54 /* RSCodeGenerator.swift in Sources */,
+				7D4EDF33796EBA4DDE9259EEC023E24A /* RSCodeLayer.swift in Sources */,
+				1BD6F7F4CF8485D92FCF73E7F8252F70 /* RSCodeReaderViewController.swift in Sources */,
+				14D189DC8C5A24DE3A371FC91F91ABCD /* RSCornersLayer.swift in Sources */,
+				C804911ADEB749A669100B608B06DD46 /* RSEANGenerator.swift in Sources */,
+				49649A8E761CB6F3260C0105E87C977F /* RSExtendedCode39Generator.swift in Sources */,
+				B00EEB1A2164762F47EC02C7304A82E0 /* RSFocusMarkLayer.swift in Sources */,
+				4C2FF846F8760507F8F8299A1C9B9574 /* RSITF14Generator.swift in Sources */,
+				909B36739C4121D3DBFD0525671A733A /* RSITFGenerator.swift in Sources */,
+				9864A2D2BD6E02DD00568AB616EE736B /* RSUnifiedCodeGenerator.swift in Sources */,
+				8670C99BDD285A9587B0D3446AB20937 /* RSUnifiedCodeValidator.swift in Sources */,
+				55E3BA9B2703DF30D6D06DB1A5382D08 /* RSUPCEGenerator.swift in Sources */,
+				17B83AC5316F84BD2DF22BB5604DB195 /* StringExtension.swift in Sources */,
+				E4ECC353D1D2652F3D67FDF44975F7A3 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E99917933C47E1EAE96915AE8C97E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42CC5470A8E591D990584D08C942017 /* Pods-BigbombUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6263973F2A4DBD177A837C5F90C638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2355E27ACA2821C3E9AF78B7C6849C4 /* Pods-BigbombTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D08723582A50111628681315E2CB9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes_Swift;
+			target = 197B2861987E641C3B1CD21B899D8145 /* RSBarcodes_Swift */;
+			targetProxy = 09A7F8978031865C256283B924DAEAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		340487FB887B47E0A009DFD12B9E70F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67521AE0D63065CC1214445B4B513F4A /* Pods-BigbombTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigbombTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigbombTests/Pods-BigbombTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigbombTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5021210AEA596A838AF49FE9E0FA3EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A35CF1E7F7B398342A737442C2B5CFD /* Pods-BigbombUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigbombUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigbombUITests/Pods-BigbombUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigbombUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57143A429BE38F9B75B407665E3503F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D45A5BE48082D69DEF7E42490FE9E8F /* Pods-BigbombUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigbombUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigbombUITests/Pods-BigbombUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigbombUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D5A776E2BE57B6047728BACF2FE3E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB26A5BB576C1CFFE824CEDBC83BC877 /* Pods-Bigbomb.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bigbomb/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bigbomb/Pods-Bigbomb.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bigbomb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		953A0B9CA4877B560FFFD91EF65DAF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBarcodes_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSBarcodes_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2F915AEEF6B3590CC01A03139897846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBarcodes_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSBarcodes_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2C0C84EB825DAD42E5AD47812B3884E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA9CB5B63EA65D283EF7B8698D0483E /* Pods-BigbombTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigbombTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigbombTests/Pods-BigbombTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigbombTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26E6D8151AF7ECF6A91B48F06A326FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3677DFA39FDE43DE11D654495EA5F192 /* Pods-Bigbomb.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Bigbomb/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bigbomb/Pods-Bigbomb.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Bigbomb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11893EFA1AB18ECF481052F1504EED2F /* Build configuration list for PBXNativeTarget "Pods-BigbombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57143A429BE38F9B75B407665E3503F3 /* Debug */,
+				5021210AEA596A838AF49FE9E0FA3EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F762E32D7ABA626B30863B695A206D /* Build configuration list for PBXNativeTarget "RSBarcodes_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953A0B9CA4877B560FFFD91EF65DAF3E /* Debug */,
+				B2F915AEEF6B3590CC01A03139897846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E486FCC3620D2AA58E909E33EB4BC8FE /* Build configuration list for PBXNativeTarget "Pods-Bigbomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26E6D8151AF7ECF6A91B48F06A326FD /* Debug */,
+				6D5A776E2BE57B6047728BACF2FE3E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E708188DDEE443468ECD49DD0F9A22B3 /* Build configuration list for PBXNativeTarget "Pods-BigbombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C0C84EB825DAD42E5AD47812B3884E /* Debug */,
+				340487FB887B47E0A009DFD12B9E70F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

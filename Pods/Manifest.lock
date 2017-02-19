@@ -1,0 +1,12 @@
+PODS:
+  - RSBarcodes_Swift (3.0.3)
+
+DEPENDENCIES:
+  - RSBarcodes_Swift (~> 3.0.3)
+
+SPEC CHECKSUMS:
+  RSBarcodes_Swift: 3b4a9c2e81fe9f435a26f18a1b8b826665e7cf89
+
+PODFILE CHECKSUM: 1662ebd57cb8b7d0f5c37bea70bdd8cbe4e47bbd
+
+COCOAPODS: 1.2.0
